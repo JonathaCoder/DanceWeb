@@ -1,0 +1,73 @@
+.tittle-container{
+  margin: 29px;
+}
+h1{
+  font-size: 150px;
+  font-family: fantasy;
+}
+.btn-learn{
+  border: 1px solid black;
+  width: 170px;
+  height: 60px;
+  background-color: rgb(77, 77, 77);
+  color: white;
+   border-radius: 0;
+}
+.btn-learn:hover{
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+   border-radius: 0;
+}
+.btn{
+  width: 70px;
+  height: 70px;
+  margin-left: 60px;
+  border: none;
+  background-color: rgb(247, 247, 247);
+  border-radius: 50%;
+  animation: pusar 2s alternate infinite;
+  transition: .2s;
+}
+
+@keyframes pusar {
+0%{
+ box-shadow: 0 0 25px rgb(113, 113, 113);
+
+}
+50%{
+  box-shadow: 0 0 16px rgb(153, 153, 153) ;
+}
+100%{
+  box-shadow: 0 0 0;
+}
+
+
+}
+.img-aparece{
+  animation: aparece 1s linear ;
+   transition: .5s;
+}
+@keyframes aparece {
+ from{
+  opacity: 0%;
+ }
+  to{
+   opacity: 100%;
+   transform: scale(1);
+  }
+
+}
+.modal-body{
+  
+ background-color: rgba(206, 206, 206, 0);
+ position: absolute; 
+ top: -709%;
+ z-index: 1;
+ left: -65%;
+ margin-top: -83%;
+
+}
+.btn-close{
+  border: 2px solid ;
+  color: white;
+}

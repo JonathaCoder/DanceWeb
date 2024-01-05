@@ -1,0 +1,44 @@
+<section>
+  <div class="tittle-container">
+    <h1 [class.img-aparece]="isTrue">
+      Let's <br>
+      Dance
+    </h1>
+    <div class="btn-container" [class.img-aparece]="isTrue">
+        <button class="btn-learn">Learn More <img src="../../../../assets/arrow-right-solid.svg" class="icon"></button>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1" >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+             
+              <div class="modal-body">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <iframe width="1140" height="742" src="https://www.youtube.com/embed/ssLzhdCUtVc" title="ACADEMIA - NO COPYRIGHT VIDEO - VIDEO SEM DIREITOS AUTORAIS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Hide this modal and show the first with the button below.
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><img src="../../../../assets/play-solid.svg" class="icon-play"></button>
+    </div>
+
+  </div>
+</section>
+

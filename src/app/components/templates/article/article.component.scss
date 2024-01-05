@@ -1,0 +1,32 @@
+img{
+width: 34%;
+display: flex;
+justify-content: center;
+opacity: 50%;
+position: absolute;
+top: 120px;
+z-index: -1;
+}
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+section{
+  display:contents ;
+}
+.img-aparece{
+  animation: aparece 1s linear ;
+   transition: 3s;
+}
+@keyframes aparece {
+ from{
+  opacity: 0%;
+ }
+  to{
+   opacity: 50%;
+   transform: scale(1deg);
+  }
+
+}
